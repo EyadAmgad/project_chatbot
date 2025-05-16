@@ -7,7 +7,7 @@ from data import documents
 import os
 
 # Set Hugging Face token
-hf_key = "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"
+hf_key = ""
 os.environ['HUGGINGFACEHUB_API_TOKEN'] = hf_key
 
 # Initialize embeddings and FAISS DB
